@@ -1,0 +1,23 @@
+Mulai
+    Inisialisasi suaraA, suaraB, suaraC = 0
+    Tampilkan menu calon: A, B, C
+    Input jumlahPemilih
+    counter = 1
+    Selama counter <= jumlahPemilih lakukan
+        Input pilihanPemilih
+        Jika pilihanPemilih == 'A' maka
+            suaraA = suaraA + 1
+        Jika pilihanPemilih == 'B' maka
+            suaraB = suaraB + 1
+        Jika pilihanPemilih == 'C' maka
+            suaraC = suaraC + 1
+        Jika input tidak valid maka
+            Tampilkan "Pilihan salah, coba lagi"
+            ulangi input
+        counter = counter + 1
+    AkhirSelama
+    Tampilkan "Hasil Voting:"
+    Tampilkan "Calon A = ", suaraA
+    Tampilkan "Calon B = ", suaraB
+    Tampilkan "Calon C = ", suaraC
+Selesai
