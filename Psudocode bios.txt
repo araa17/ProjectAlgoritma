@@ -1,0 +1,25 @@
+Deklarasi:
+    pilihanFilm : integer
+    baris, kolom : integer
+    harga : integer = 50000
+    kursi[5][5] : integer
+
+Deskripsi:
+    Tampilkan "Sistem Pemesanan Tiket Bioskop"
+    Tampilkan daftar film
+    Input pilihanFilm
+
+    Tampilkan denah kursi
+
+    Input baris
+    Input kolom
+
+    Jika kursi[baris][kolom] = 0 maka
+        kursi[baris][kolom] ← 1
+        Tampilkan "Kursi berhasil dipesan"
+        Tampilkan harga
+    Jika tidak
+        Tampilkan "Kursi sudah terisi"
+    EndIf
+
+Selesai
